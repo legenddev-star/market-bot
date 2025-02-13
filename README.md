@@ -7,63 +7,31 @@
 
 # 🤖 TELEGRAM BOT
 
-## 📝 Описание
+Telegram Bot Features
+Access and Update Unique Links to Movie Sites Without Distribution Rights: Users can get up-to-date links to resources for watching movies.
 
-Телеграм бот предоставляет следующие возможности:
+Display of Available Taxi Services in Polevskoy: The bot provides information on taxi services available in the city of Polevskoy.
 
-- Получение и обновление уникальных ссылок на сайты с фильмами без прав на прокат: Пользователи могут получать актуальные ссылки на ресурсы для просмотра фильмов.
+Mini-App "Bus Schedule": Users can view the schedule for the "Polevskoy - Yekaterinburg" bus route and back, including departure times, arrival times, and intermediate stops.
 
-- Отображение актуальных сервисов такси в Полевском: Бот предоставляет информацию о доступных сервисах такси в городе Полевской.
+Feedback: Users can report issues with the bot's functionality or suggest new features.
 
-- Мини-приложение "Расписание автобусов": Возможность просмотра расписания автобусов по маршруту "Полевской - Екатеринбург" и обратно, включая время отправления, прибытия и промежуточные остановки.
+📂 Project Structure
+🔧 html-parser
+Server for parsing bus schedules - More details
 
-- Обратная связь: Пользователи могут сообщать о проблемах в работе бота или предлагать новый функционал.
+🖥️ miniApp (VUE)
+Frontend for "Bus Schedule" using Vue.js - More details
 
-## 📸 Скриншоты
+🖥️ miniApp (React)
+Alternative frontend version for "Bus Schedule" using React - More details
 
-### Главная страница
-[![Главная страница](./public/screenshots/Main.png)](./public/screenshots/Main.png)
+⚙️ tgBot
+Bot logic implemented using an object-oriented approach - More details
 
-### Выбор видеосервиса
-[![Выбор видеосервиса](./public/screenshots/Video.png)](./public/screenshots/Video.png)
-
-### Видеосервис
-[![Видеосервис](./public/screenshots/HDREZKA.png)](./public/screenshots/HDREZKA.png)
-
-### Выбор сервиса такси
-[![Выбор сервиса такси](./public/screenshots/Taxi.png)](./public/screenshots/Taxi.png)
-
-### Такси
-[![Такси](./public/screenshots/TaxiSouth.png)](./public/screenshots/TaxiSouth.png)
-
-### Другие сервисы
-[![Другие сервисы](./public/screenshots/Additional.png)](./public/screenshots/Additional.png)
-
-### Расписание автобусов
-[![Расписание автобусов](./public/screenshots/MiniApp.png)](./public/screenshots/MiniApp.png)
-
-## 📂 Структура проекта
-
-### 🔧 html-parser
-Сервер с парсингом расписания автобусов - [Подробнее](/html-parser/README.md)
-
-### 🖥️ miniApp (VUE)
-Фронтенд "Расписание автобусов" на Vue.js - [Подробнее](/mini-app-vue/README.md)
-
-### 🖥️ miniApp (React)
-Альтернативная версия фронтенда "Расписание автобусов" на React - [Подробнее](/miniApp/README.md)
-
-### ⚙️ tgBot
-Логика бота, реализованная с использованием объектно-ориентированного подхода - [Подробнее](/tgBot/README.md)
-
-## 🚀 Технологии
-
-- Backend: Node.js, Express
-
-- Frontend: Vue.js, React
-
-- Парсинг: Cheerio
-
-- Бот: Node Telegram Bot API
-
-- Email-уведомления: Nodemailer
+🚀 Technologies
+Backend: Node.js, Express
+Frontend: Vue.js, React
+Parsing: Cheerio
+Bot: Node Telegram Bot API
+Email Notifications: Nodemailer
